@@ -56,6 +56,7 @@ nav{
 }
 
 
+
 h2{
   text-align:center;
   color:white;
@@ -67,16 +68,13 @@ h2{
 p{
   padding: 10px;
   color:wheat;
-  font-size: xx-large;
+  font-size: x-large;
   text-align: center;
 }
-
-@media (min-width: 400px) and (max-width:900px ){
-}
-
 
 .imagen{
   text-align: center;
+  object-fit: cover;
 }
 
   footer{
