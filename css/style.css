@@ -13,21 +13,46 @@ font-family: 'Oswald'
 }
 
 header{
-background-color:#491B1B;
-text-align: center;
-font-size: xx-large;
-color:wheat;
-padding: 20px;
+  display: flex;
+  padding: 10px;
+  min-height: 150px;
+  justify-content:space-between; 
+  align-items: center;
+  background-color:#491B1B;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img{
+  height: 170px;
+  margin-right: 10px;
 }
 
 a{
-  color:black;
-  text-decoration:double;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin: 10px;
-  background-color:cornsilk;
-  font-size:x-large;
+  text-decoration: none;
+  color: wheat;
+  font-weight: 1000;
+  padding-right :10px;
+  font-size: large; 
+}
+
+nav a:hover{
+  color: white;
+  font-size: x-large;
+}
+
+
+@media(max-width:900px){
+header{
+  flex-direction: column;
+}
+
+nav{
+  padding:10px 0px ;
+}
 }
 
 
@@ -38,12 +63,17 @@ h2{
   padding: 20px;
 }
 
+
 p{
+  padding: 10px;
   color:wheat;
   font-size: xx-large;
   text-align: center;
 }
- 
+
+@media (min-width: 400px) and (max-width:900px ){
+}
+
 
 .imagen{
   text-align: center;
