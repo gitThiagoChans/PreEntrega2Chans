@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+ background-color:#090721;
+ font-family:Oswald;
+ }
+
+ .navbar-brand{
+  font-size: xx-large;
+  color:#F7EBEC;
+  
+ }
+ .nav-link{
+  font-size: x-large;
+  color:#9CC1FB;
+ }
+ h2{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+    color:#FEFEE3;
+    text-align:center;
+    font-size: xx-large;}
+
+ @media (min-width: 100px) and (max-width: 900px){
+ .TITULO{
+  text-align: center;
+  font-size: xx-large;
+
+ } 
+ }
+
+    p{display:flex;
+      flex-direction:column;
+      font-size:xx-large;
+      color: #c9daff;
+      font-size:x-large;
+   }  
+
+ @media (min-width: 100px) and (max-width: 900px ){
+    .celular{
+      text-align:center;
+      font-size:large;
+    }
+  }
+
+  .imagenes{
+    text-align: center;
+    margin: 10px;
+   }
+   
+   img{
+    object-fit: contain;
+        height: 300px;
+        margin: 5px;
+    }
+  @media (min-width: 100px) and (max-width: 900px ){
+    .imagenes{
+      text-align:center;
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+.video{
+  text-align: center;
+  margin: 10px;
+}
+
+@media (min-width: 200px) and (max-width:900px ){
+  .video{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+  }
+}
+.galeria{
+  display: flex;
+  margin:5px;
+  padding: 5px;
+  width:100% ;
+  height:430px;
+}
+
+.gama{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+
+.gama:hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+footer{
+ background-color: black;
+}
