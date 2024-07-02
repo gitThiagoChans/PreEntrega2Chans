@@ -13,7 +13,7 @@ font-family: 'Oswald'
 }
 
 header{
-  display: flex;
+  display:flex;
   padding: 10px;
   min-height: 150px;
   justify-content:space-between; 
@@ -78,9 +78,6 @@ p{
 }
 
   footer{
-    padding:15px;
     background-color:black;
    color:white;
-   text-align: end;
-    font-size: large;
   }
