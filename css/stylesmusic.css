@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 body{
- background-color:#090721;
+ background-color:#000000;
  font-family:Oswald;
  }
+
+ p{
+    color: antiquewhite;
+ }
+  
